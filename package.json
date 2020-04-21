@@ -37,7 +37,7 @@
   "devDependencies": {
     "ava": "^3.7.1",
     "npm-run-all": "^4.1.2",
-    "supertest": "^3.0.0",
+    "supertest": "^4.0.2",
     "xo": "^0.29.1"
   },
   "xo": {
