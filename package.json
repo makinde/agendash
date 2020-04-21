@@ -43,6 +43,9 @@
   "xo": {
     "space": 2,
     "rules": {
+      "unicorn/prevent-abbreviations": "off",
+      "promise/prefer-await-to-then": "off",
+      "no-unused-vars": "off",
       "space-before-function-paren": [
         "error",
         "never"
