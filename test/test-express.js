@@ -41,7 +41,7 @@ test.serial('POST /api/jobs/create should confirm the job exists', async t => {
 
   await new Promise(resolve => {
     agenda._collection.countDocuments({}, null, (err, res) => {
-      t.ifError(err);
+      t.falsy(err);
       if (res !== 1) {
         throw new Error('Expected one document in database');
       }
